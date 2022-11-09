@@ -2,6 +2,6 @@
 - hosts: all
   become: true
   tasks:
-   - name: deploying using jenkins
+   - name: apache installing using jenkins
      apt: name=apache2 state=present
      
