@@ -3,4 +3,5 @@
   become: true
   tasks:
    - name: deploying using jenkins
+     apt: name=apache2 state=present
      
