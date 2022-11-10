@@ -3,7 +3,5 @@
   become: true
   tasks:
    - name: apache installing using jenkins
-     apt: 
-       name: apache2 
-       state: present
+     apt: name=apache2 state=present
      
