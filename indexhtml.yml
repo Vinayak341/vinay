@@ -5,4 +5,4 @@
     - name: deploying web page
       copy:
         src: index.html
-        destination: /var/www/html/
+        dest: /var/www/html/
