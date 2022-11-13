@@ -4,5 +4,5 @@
   tasks:
     - name: deploying web page
       copy:
-        source: /var/lib/jenkins/workspace/test1
+        source: /var/lib/jenkins/workspace/test1/index.html
         destination: /var/www/html/
