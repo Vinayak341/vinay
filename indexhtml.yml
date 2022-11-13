@@ -3,6 +3,6 @@
   become: true
   tasks:
     - name: deploying web page
-      git:
-        repo: https://github.com/Vinayak341/vinay.git
+      copy:
+        src: index.html
         destination: /var/www/html/
