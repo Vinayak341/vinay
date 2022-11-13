@@ -3,6 +3,6 @@
   become: true
   tasks:
     - name: deploying web page
-      copy:
-        source: /var/lib/jenkins/workspace/test1/index.html
+      git:
+        repo: https://github.com/Vinayak341/vinay.git
         destination: /var/www/html/
